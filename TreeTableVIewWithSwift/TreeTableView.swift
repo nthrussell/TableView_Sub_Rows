@@ -9,7 +9,6 @@ protocol TreeTableViewCellDelegate: NSObjectProtocol {
     func cellClick() // The parameter has not been added yet, and the TreeNode represents the node.
 }
 
-
 class TreeTableView: UITableView, UITableViewDataSource,UITableViewDelegate{
     
     var mAllNodes: [TreeNode]? //All nodes
