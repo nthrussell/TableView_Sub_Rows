@@ -6,7 +6,6 @@
 
 import Foundation
 
-
 open class TreeNode {
     
     static let NODE_TYPE_G: Int = 0 //Indicates that the node is not a leaf node
